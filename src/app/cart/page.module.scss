@@ -1,0 +1,19 @@
+.cart {
+    display: grid;
+    row-gap: 20px;
+    padding: 20px 30px;
+
+    &__images {
+        display: grid;
+    }
+
+    &__quantity {
+        display: flex;
+        align-items: center;
+    }
+
+    &__total {
+        font-size: 1rem;
+    }
+
+}

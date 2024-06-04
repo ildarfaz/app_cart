@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    &__toolbar {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__navigation {
+        display: flex;
+        column-gap: 20px;
+    }
+}
