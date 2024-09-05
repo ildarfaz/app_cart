@@ -15,7 +15,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "test task",
 };
-let isCreate = false;
+
 export default async function RootLayout({
   children,
 }: Readonly<{
@@ -24,7 +24,7 @@ export default async function RootLayout({
 
 
   const res = await fetch("http://localhost:8080/api/shoppingcart/header");
-  const { LogoImg,UserName } = await res.json();
+  const { LogoImg, UserName } = await res.json();
   return (
     <html lang="ru">
       <body className={roboto.className}>
